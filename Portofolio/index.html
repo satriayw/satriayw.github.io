@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =========================================================
+       BASIC META
+  ========================================================== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>EduCareer Platform | Career & Recruitment Website UI Concept – Frontend Portfolio</title>
+
+  <meta name="description" content="EduCareer Platform is a conceptual career and recruitment website created as a frontend portfolio project, showcasing modern UI, responsive layout, structured HTML, and SEO-ready architecture." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://domain.com" />
+
+  <!-- =========================================================
+       OPEN GRAPH / SOCIAL PREVIEW
+  ========================================================== -->
+  <meta property="og:title" content="EduCareer Platform | Career Website UI Concept" />
+  <meta property="og:description" content="Frontend portfolio project demonstrating a modern career & recruitment platform with clean UI, responsive design, and structured layout." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://domain.com" />
+  <meta property="og:image" content="https://domain.com" />
+  <meta property="og:site_name" content="Satria Yudha Portfolio" />
+
+  <!-- =========================================================
+       TWITTER CARD
+  ========================================================== -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EduCareer Platform | Career Website UI Concept" />
+  <meta name="twitter:description" content="A frontend portfolio project showcasing a modern career & recruitment platform UI." />
+  <meta name="twitter:image" content="https://domain.com" />
+
+  <!-- =========================================================
+       FAVICON
+  ========================================================== -->
+  <link rel="icon" href="https://domain.com" type="image/webp" />
+  <link rel="apple-touch-icon" href="https://domain.com" />
+
+  <!-- =========================================================
+       STYLES
+  ========================================================== -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- =========================================================
+       STRUCTURED DATA – CREATIVE WORK (PORTFOLIO PROJECT)
+  ========================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "EduCareer Platform",
+    "description": "A conceptual career and recruitment website built as a frontend portfolio project, focusing on UI design, responsive layout, structured HTML, and SEO-ready page architecture.",
+    "creator": {
+      "@type": "Person",
+      "name": "Satria Yudha"
+    },
+    "dateCreated": "2025",
+    "keywords": [
+      "career platform UI",
+      "recruitment website design",
+      "frontend portfolio project",
+      "job board website",
+      "responsive web design"
+    ],
+    "inLanguage": "en",
+    "url": "https://domain.com"
+  }
+  </script>
+
+  <!-- =========================================================
+       STRUCTURED DATA – PERSON (YOU)
+  ========================================================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Satria Yudha",
+    "jobTitle": "Frontend Developer",
+    "url": "https://domain.com",
+    "sameAs": [
+      "https://www.linkedin.com",
+      "https://github.com",
+      "https://www.instagram.com"
+    ]
+  }
+  </script>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<section class="navbar">
+  <div class="navbar-left">
+    <div class="logo-box">
+      <h2 class="logo-text">EduCareer</h2>
+    </div>
+  </div>
+  <div class="navbar-right">
+  <div class="Profile-box" id="profileBtn">
+    <i class="far fa-user"></i>
+  </div>
+
+  <!-- PROFILE DROPDOWN -->
+  <div class="profile-dropdown" id="profileDropdown">
+    <div class="profile-header">
+      <div class="profile-avatar">S</div>
+      <div>
+        <strong>Satria (+6283195784338)</strong>
+        <small>satriayw13@gmail.com</small>
+      </div>
+    </div>
+
+    <div class="theme-switcher">
+      <button data-theme="light">☀ Light</button>
+      <button data-theme="dark">🌙 Dark</button>
+      <button data-theme="system">💻 System</button>
+    </div>
+
+    <a href="#">Profile</a>
+    <a href="#">Job Vacancy</a>
+    <a href="#" class="logout">Log Out</a>
+  </div>
+</div>
+</section>
+
+<!-- HERO + JOBS -->
+<section class="hero-wrapper">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+
+      <div class="hero-text">
+        <h1>
+          Empowering Careers <br>
+          Through Education & Growth
+        </h1>
+        <p>
+          Join a professional team dedicated to meaningful impact, continuous learning, and long-term growth.
+        </p>
+
+        <!-- SEARCH BOX -->
+        <div class="search-wrapper">
+          <h3>Search Available Positions</h3>
+
+          <div class="search-box">
+            <input type="text" placeholder="Teacher, Admin, Support, etc">
+            <button>Search</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ILLUSTRATION -->
+      <div class="hero-illustration">
+        <div class="illustration-box">
+          <img src="herojob 2.png" alt="Career Illustration">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JOBS -->
+  <section class="jobs">
+    <div class="container jobs-box">
+
+      <h2>Latest Job Openings</h2>
+
+      <div class="job-grid">
+        <div class="job-card">
+          <h3>Science Teacher</h3>
+          <p>📍 Jakarta</p>
+          <p>🏢 On-site</p>
+          <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+          <h3>Academic Coordinator</h3>
+          <p>📍 Bandung</p>
+          <p>🏢 Hybrid</p>
+          <button>Apply</button>
+        </div>
+
+        <div class="job-card">
+          <h3>Customer Support Officer</h3>
+          <p>📍 Surabaya</p>
+          <p>🏢 On-site</p>
+          <button>Apply</button>
+        </div>
+      </div>
+
+      <a href="#" class="see-all">View All Opportunities →</a>
+
+    </div>
+  </section>
+
+</section>
+
+<!-- ABOUT US -->
+<section class="about-us">
+  <div class="container about-grid">
+
+    <div class="about-text">
+      <span class="about-label">About Us</span>
+
+      <h2>
+        Building Careers <br>
+        With Purpose
+      </h2>
+
+      <p>
+        EduCareer Platform is a concept-based recruitment website designed to connect
+        professionals with meaningful roles in education and organizational support.
+      </p>
+
+      <p>
+        Our mission is to create an ecosystem where talent, growth, and impact meet
+        through transparent recruitment and professional development.
+      </p>
+
+      <ol>
+        <li>Career-focused recruitment platform</li>
+        <li>People-first organizational culture</li>
+        <li>Structured growth & learning environment</li>
+        <li>Long-term professional development</li>
+      </ol>
+    </div>
+
+    <div class="about-video">
+      <iframe 
+        src="https://www.youtube.com/embed/"
+        title="Career Platform Overview"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section class="timeline">
+  <div class="container">
+
+    <h2 class="timeline-title">
+      From Vision <span>To Impact</span>
+    </h2>
+
+    <div class="timeline-wrapper">
+
+      <button class="timeline-arrow left" onclick="slideTimeline(-1)">&#10094;</button>
+
+      <div class="timeline-slider" id="timelineSlider">
+
+        <div class="timeline-item">
+          <img src="pict1.jpg"  alt="Job opportunities illustration at EduCareer">
+          <h3>2019</h3>
+          <p>
+            Initial idea of building a transparent and people-centered career platform.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <img src="pict2.jpg"  alt="Job opportunities illustration at EduCareer">
+          <h3>2021</h3>
+          <p>
+            Platform concept expanded with focus on education and skill-based recruitment.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <img src="pict3.jpg"  alt="Job opportunities illustration at EduCareer">
+          <h3>2024</h3>
+          <p>
+            UI & UX design refinement for a modern and accessible career experience.
+          </p>
+        </div>
+
+      </div>
+
+      <button class="timeline-arrow right" onclick="slideTimeline(1)">&#10095;</button>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- IMAGE SLIDER -->
+<section class="image-slider-section">
+  <div class="image-slider-track">
+
+    <div class="image-slider">
+      <div class="image-slide"><img src="pict1.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict2.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict3.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict4.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict5.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+
+      <!-- DUPLIKAT -->
+      <div class="image-slide"><img src="pict1.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict2.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict3.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict4.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+      <div class="image-slide"><img src="pict5.jpg"  alt="Job opportunities illustration at EduCareer"></div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h4>About Project</h4>
+      <p>
+        EduCareer Platform is a conceptual rebuild project created to demonstrate
+        frontend development skills including layout structuring and responsive design.
+      </p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Pages</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>Email: satriayw13@gmail.com</p>
+      <p>Phone: +62 83195784338</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow</h4>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 EduCareer Platform — Concept Rebuild Project
+  </div>
+</footer>
+
+<script>
+  function slideTimeline(direction) {
+    const slider = document.getElementById('timelineSlider');
+    slider.scrollLeft += direction * 350;
+  }
+</script>
+<script>
+  const profileBtn = document.getElementById('profileBtn');
+  const dropdown = document.getElementById('profileDropdown');
+  const themeButtons = document.querySelectorAll('[data-theme]');
+
+  // Toggle dropdown
+  profileBtn.addEventListener('click', () => {
+    dropdown.classList.toggle('show');
+  });
+
+  // Close if click outside
+  document.addEventListener('click', (e) => {
+    if (!profileBtn.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.remove('show');
+    }
+  });
+
+  // Apply theme
+  function setTheme(theme) {
+    if (theme === 'dark') {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+    localStorage.setItem('theme', theme);
+  }
+
+  themeButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const theme = btn.dataset.theme;
+
+      if (theme === 'system') {
+        localStorage.removeItem('theme');
+        document.body.classList.remove('dark');
+      } else {
+        setTheme(theme);
+      }
+    });
+  });
+
+  // Load saved theme
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    setTheme(savedTheme);
+  }
+</script>
+
+</body>
+</html>
